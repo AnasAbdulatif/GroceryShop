@@ -3,7 +3,7 @@
 <html lang="en">
 
 <?php
-
+//add session
 session_start();
 require('dbConnect.php');
 error_reporting(0);
