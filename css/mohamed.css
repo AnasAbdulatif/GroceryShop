@@ -1,0 +1,1179 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+nav{
+    display :flex ;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 9vh;   
+   background-color: #1D4354;
+   margin: 0;
+}
+
+.logo{
+    float: left;
+     position: relative;
+}
+
+ .nav-links
+{
+    display: flex;
+    justify-content: space-around;
+    width: 40%;    
+}
+
+.nav-links a
+{
+    
+color: white;
+text-decoration: none;
+letter-spacing: 4px;
+    font-size: 12px;
+    font-weight: bold;
+
+}
+
+.nav-links li
+{
+list-style: none;    
+display: inline;    
+margin-right: 60px; 
+font-size:10%;
+font-family: 'Poppins', sans-serif;
+}
+
+.nav-links a{
+    transition: color 0.3s;
+  
+}
+
+.nav-links a:hover{
+    color: #91D903;
+}
+
+
+form{
+    height: 91vh;
+    background-image: url("../img/AddProduct.jpg");
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+form h1{
+    position: absolute;
+    left: 50px;
+    top: 40px;
+    font-size: 160%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+    text-decoration: underline;
+    
+}
+
+.addProductContainer{
+    position: absolute;
+    top: 15vh;
+    left: 65vh;
+    border-radius: 25px;
+    background: #EEF0F8;
+    padding: 20px;
+    width: 70vh;
+    height: 82vh;
+    border: 4px solid #1D4354;
+}
+
+.manageProductButton .manageButton {
+    position: absolute;
+    top: 200px;
+    left: 1130px;
+    background-color: #1D4354; 
+    border: none;
+    color: #95DF00;
+    padding: 20px 50px;
+    width: 10%;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.4s;
+}
+
+.manageProductButton .manageButton:hover{
+     color: #FFF;
+     background-color:#91D903 ;
+   }
+
+   .addProductButton .addButton {
+    position: absolute;
+    top: 200px;
+    left: 1130px;
+    background-color: #1D4354; 
+    border: none;
+    color: #95DF00;
+    padding: 20px 50px;
+    width: 10%;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.4s;
+}
+
+.addProductButton .addButton:hover{
+     color: #FFF;
+     background-color:#91D903 ;
+   }
+
+
+.formControl1 .addProductText{
+    position: absolute;
+    top: 120px;
+    left: 50px;
+    font-size: 110%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+
+.formControl1 #productName {
+    position: absolute;
+    top: 109px;
+    left: 180px;
+    width: 23%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    box-sizing: border-box;
+    background:rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 2px solid #1D4354;
+
+}
+
+.formControl1 small{
+    color: red;
+    position: absolute;
+    top: 120px;
+    left: 350px;
+    font-size: 110%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+
+
+
+.formControl2 .addProductText{
+    position: absolute;
+    top: 180px;
+    left: 50px;
+    font-size: 110%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+
+.formControl2 #productCategory {
+    position: absolute;
+    top: 170px;
+    left: 180px;
+    width: 23%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    box-sizing: border-box;
+    background:rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 2px solid #1D4354;
+}
+
+.formControl2 small{
+    color: red;
+    position: absolute;
+    top: 183px;
+    left: 350px;
+    font-size: 110%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+
+.formControl3 .addProductText{
+    position: absolute;
+    top: 230px;
+    left: 50px;
+    font-size: 110%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+
+.formControl3 #productDesc {
+    position: absolute;
+    top: 260px;
+    left: 50px;
+    width: 540px;
+    height: 100px;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #1D4354;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background:rgba(255, 255, 255, 0.5);
+}
+
+.formControl3 small{
+    color: red;
+    position: absolute;
+    top: 233px;
+    left: 150px;
+    font-size: 90%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.formControl31 .addProductText{
+    position: absolute;
+    top: 375px;
+    left: 50px;
+    font-size: 110%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+
+.formControl31 #productDescEdit {
+    position: absolute;
+    top: 400px;
+    left: 50px;
+    width: 540px;
+    height: 80px;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 2px solid #1D4354;
+    border-radius: 2px;
+    box-sizing: border-box;
+    background:rgba(255, 255, 255, 0.5);
+}
+
+.formControl31 small{
+    color: red;
+    position: absolute;
+    top: 233px;
+    left: 150px;
+    font-size: 90%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.formControl4 .addProductText{
+    position: absolute;
+    top: 500px;
+    left: 50px;
+    font-size: 110%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+
+.formControl4 #productImage {
+    position: absolute;
+    top: 530px;
+    left: 50px;
+    width: 35%;
+    padding: 20px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    box-sizing: border-box;
+    background:rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 2px solid #1D4354;
+}
+
+.formControl5 .addProductText{
+    position: absolute;
+    top: 500px;
+    left: 360px;
+    font-size: 110%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+
+.formControl5 #productAmount {
+    position: absolute;
+    top: 490px;
+    left: 440px;
+    width: 17%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0px;
+    box-sizing: border-box;
+    background:rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 2px solid #1D4354;
+}
+
+.formControl5 #productAmountNumber{
+    position: absolute;
+    top: 490px;
+    left: 550px;
+    width: 6%;
+    padding: 7px 0px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0px;
+    box-sizing: border-box;
+    background:rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 2px solid #1D4354;
+}
+
+.formControl5 small{
+    color: red;
+    position: absolute;
+    top: 540px;
+    left: 440px;
+    font-size: 90%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.formControl51 .addProductText{
+    position: absolute;
+    top: 540px;
+    left: 360px;
+    font-size: 110%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+
+.formControl51 #productAmountEdit {
+    position: absolute;
+    top: 525px;
+    left: 440px;
+    height: 4%;
+    width: 17%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 0px;
+    box-sizing: border-box;
+    background:rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 2px solid #1D4354;
+}
+
+.formControl51 small{
+    color: red;
+    position: absolute;
+    top: 540px;
+    left: 440px;
+    font-size: 90%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.formControl6 .addProductText{
+    position: absolute;
+    top: 570px;
+    left: 340px;
+    font-size: 110%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+
+.formControl6 #productExpire {
+    position: absolute;
+    top: 560px;
+    left: 440px;
+    width: 17%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1D4354;
+    border-radius: 0px;
+    box-sizing: border-box;
+    background:rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 2px solid #1D4354;
+}
+
+.formControl6 #productExpireNumber{
+    position: absolute;
+    top: 560px;
+    left: 550px;
+    width: 6%;
+    padding: 7px 0px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1D4354;
+    border-radius: 0px;
+    box-sizing: border-box;
+    background:rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 2px solid #1D4354;
+}
+
+.formControl61 .addProductText{
+    position: absolute;
+    top: 610px;
+    left: 340px;
+    font-size: 110%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+
+.formControl61 #productExpireEdit {
+    position: absolute;
+    top: 600px;
+    left: 440px;
+    width: 17%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #1D4354;
+    border-radius: 0px;
+    box-sizing: border-box;
+    background:rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 2px solid #1D4354;
+}
+
+
+.formControl7 .submit-button {
+    position: absolute;
+    top: 670px;
+    background-color: #1D4354; 
+    border: none;
+    color: #95DF00;
+    padding: 20px 50px;
+    width: 20%;
+    text-decoration: none;
+    margin-left: 47%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.4s;
+}
+
+.formControl7 .submit-button:hover{
+     color: #FFF;
+     background-color:#91D903 ;
+   }
+
+.formControl9 .addProductText{
+    position: absolute;
+    top: 182px;
+    left: 420px;
+    font-size: 110%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+
+.formControl9 #productPrice {
+    position: absolute;
+    top: 172px;
+    left: 470px;
+    width: 10%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    box-sizing: border-box;
+    background:rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 2px solid #1D4354;
+
+}
+
+.formControl9 small{
+    color: red;
+    position: absolute;
+    top: 120px;
+    left: 350px;
+    font-size: 110%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.formControl91 .addProductText{
+    position: absolute;
+    top: 225px;
+    
+    left: 420px;
+    font-size: 110%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+
+.formControl91 #productPriceEdit {
+    position: absolute;
+    top: 215px;
+    left: 470px;
+    width: 10%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    box-sizing: border-box;
+    background:rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 2px solid #1D4354;
+
+}
+
+.formControl91 small{
+    color: red;
+    position: absolute;
+    top: 120px;
+    left: 350px;
+    font-size: 110%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.formControl10 .addButton {
+    position: absolute;
+    top: 670px;
+    background-color: #1D4354; 
+    border: none;
+    color: #95DF00;
+    padding: 20px 50px;
+    width: 20%;
+    text-decoration: none;
+    margin-left: 47%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.4s;
+}
+
+.formControl10 .addButton:hover{
+     color: #FFF;
+     background-color:#91D903 ;
+   }
+
+/*--------------------------------------------------------------------------------------------------*/
+
+/*manage product page classes*/
+
+#showDiv{
+    display: none;
+}
+.formControl1 #productID {
+    position: absolute;
+    top: 109px;
+    left: 180px;
+    width: 23%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    box-sizing: border-box;
+    background:rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 2px solid #1D4354;
+
+}
+
+.formControl1Button .checkButton {
+    position: absolute;
+    top: 280px;
+    left: 1090px;
+    background-color: #1D4354; 
+    border: none;
+    color: #95DF00;
+    padding: 20px 15px;
+    width: 5%;
+    text-decoration: none;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.4s;
+}
+
+.formControl1Button .checkButton:hover{
+     color: #FFF;
+     background-color:#91D903 ;
+   }
+
+.formControl11 .addProductText{
+    position: absolute;
+    top: 275px;
+    left: 660px;
+    font-size: 110%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+
+.formControl11 #productID {
+    position: absolute;
+    top: 260px;
+    left: 792px;
+    width: 5%;
+    padding: 8px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 2px;
+    box-sizing: border-box;
+    background:rgba(255, 255, 255, 0.5);
+    border: none;
+    border-bottom: 2px solid #1D4354;
+}
+
+.formControl11 small{
+    color: red;
+    position: absolute;
+    top: 120px;
+    left: 350px;
+    font-size: 110%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+}
+
+.formControl7 .updateButton {
+    position: absolute;
+    top: 840px;
+    left: 160px;
+    background-color: #1D4354; 
+    border: none;
+    color: #95DF00;
+    padding: 20px 50px;
+    width: 7%;
+    text-decoration: none;
+    margin-left: 47%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.4s;
+}
+
+.formControl7 .updateButton:hover{
+     color: #FFF;
+     background-color:#91D903 ;
+   }
+
+.formControl8 .deleteButton {
+    position: absolute;
+    top: 840px;
+    left: -70px;
+    background-color: #1D4354; 
+    border: none;
+    color: #95DF00;
+    padding: 20px 50px;
+    width: 7%;
+    text-decoration: none;
+    margin-left: 47%;
+    transform: translate(-50%, -50%);
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.4s;
+}
+
+.formControl8 .deleteButton:hover{
+     color: #FFF;
+     background-color:#91D903 ;
+   }
+
+
+
+
+/*----------------------------------------------*/
+/* categories page style */
+
+.background{
+    height: 91vh;
+    background-image: url("../img/AddProduct.jpg");
+    background-size: cover;
+    background-position: center center;
+    
+}
+
+.categoriesContainer{
+    position: absolute;
+    top: 24vh;
+    left: 28vh;
+    border-radius: 25px;
+    background: #EEF0F8;
+    padding: 20px;
+    width: 150vh;
+    height: 60vh;
+    border: 4px solid #1D4354;
+}
+
+.categoriesContainer h1{
+    position: absolute;
+    left: 50px;
+    top: 35px;
+    font-size: 160%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+    text-decoration: underline;
+    
+}
+
+.vegetablesBox .vegetablesButton {
+    bottom: 50%;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    font-size: large;
+}
+
+.vegetablesBox img{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    width: 220px;
+    border: 4px solid #1D4354;
+    border-radius: 15px;
+    height: 150px;
+}
+
+.vegetablesBox .text{
+    padding: 1px 14px;
+    position: absolute;
+    top: 205px;
+    left: 240px;
+    font-size: 140%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+    color: black;
+    border: 3px solid #1D4354;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+
+.fruitsBox .fruitsButton {
+    bottom: 50%;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    font-size: large;
+}
+
+.fruitsBox img{
+    position: absolute;
+    top: 100px;
+    left: 570px;
+    width: 220px;
+    border: 4px solid #1D4354;
+    border-radius: 15px;
+    height: 150px;
+}
+
+.fruitsBox .text{
+    padding: 1px 14px;
+    position: absolute;
+    top: 205px;
+    left: 635px;
+    font-size: 140%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+    color: black;
+    border: 3px solid #1D4354;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+
+.drinksBox .drinksButton {
+    bottom: 50%;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    font-size: large;
+}
+
+.drinksBox img{
+    position: absolute;
+    top: 100px;
+    left: 930px;
+    width: 220px;
+    border: 4px solid #1D4354;
+    border-radius: 15px;
+    height: 150px;
+}
+
+.drinksBox .text{
+    padding: 1px 14px;
+    position: absolute;
+    top: 205px;
+    left: 990px;
+    font-size: 140%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+    color: black;
+    border: 3px solid #1D4354;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+
+.bakedBox .bakedButton {
+    bottom: 50%;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    font-size: large;
+}
+
+.bakedBox img{
+    position: absolute;
+    top: 300px;
+    left: 350px;
+    width: 220px;
+    border: 4px solid #1D4354;
+    border-radius: 15px;
+    height: 150px;
+}
+
+.bakedBox .text{
+    padding: 1px 14px;
+    position: absolute;
+    top: 405px;
+    left: 415px;
+    font-size: 140%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+    color: black;
+    border: 3px solid #1D4354;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+
+.toolsBox .toolsButton {
+    bottom: 50%;
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma;
+    font-size: large;
+}
+
+.toolsBox img{
+    position: absolute;
+    top: 300px;
+    left: 790px;
+    width: 220px;
+    border: 4px solid #1D4354;
+    border-radius: 15px;
+    height: 150px;
+}
+
+.toolsBox .text{
+    padding: 1px 14px;
+    position: absolute;
+    top: 405px;
+    left: 855px;
+    font-size: 140%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+    color: black;
+    border: 3px solid #1D4354;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.8);
+    
+}
+
+/*----------------------------------------------------------------------------------------------------------*/
+/* order history css*/
+
+.orderHistoryBackground{
+    height: 91vh;
+    background-image: url("../img/OrderHistory.jpg");
+    background-size: cover;
+    background-position: center center;
+}
+
+.orderHistoryContainer{
+    position: absolute;
+    top: 15vh;
+    left: 65vh;
+    border-radius: 25px;
+    background: #EEF0F8;
+    padding: 20px;
+    width: 70vh;
+    height: 80vh;
+    border: 4px solid #1D4354;
+}
+
+.orderHistoryContainer h1{
+    position: absolute;
+    left: 25px;
+    top: 20px;
+    font-size: 160%;
+    font-weight: normal;
+    font-family: 'Tahoma', sans-serif;
+    text-decoration: underline;
+    
+}
+
+.order1 {
+    position: absolute;
+    top: 70px;
+    border-radius: 25px;
+    background: #1D4354;
+    padding: 20px;
+    width: 600px;
+    height: 180px;
+    border: 4px solid #1D4354;
+}
+
+.order1img{
+    position: absolute;
+    border-radius: 20px;
+    width: 200px;
+    height: 172px;
+    left: 0px;
+    top: 0px;
+    border: 4px solid #1D4354;
+}
+
+.order1name{
+    position: absolute;
+    top: 10px;
+    left: 210px;
+    font-size: 200%;
+    color: #EEF0F8;
+    font-family: 'Tahoma';
+}
+
+.order1id{
+    position: absolute;
+    top: 60px;
+    left: 210px;
+    font-size: 120%;
+    color: #EEF0F8;
+    font-family: 'Tahoma';
+}
+
+
+.order1amount{
+    position: absolute;
+    top: 100px;
+    left: 210px;
+    font-size: 120%;
+    color: #EEF0F8;
+    font-family: 'Tahoma';
+}
+
+.order1date{
+    position: absolute;
+    top: 140px;
+    left: 210px;
+    font-size: 120%;
+    color: #EEF0F8;
+    font-family: 'Tahoma';
+}
+
+.order1total{
+    position: absolute;
+    top: 130px;
+    left: 460px;
+    font-size: 160%;
+    color: #EEF0F8;
+    font-family: 'Tahoma';
+}
+
+
+.order2 {
+    position: absolute;
+    top: 25px;
+    margin-top: 250px;
+    border-radius: 25px;
+    background: #1D4354;
+    padding: 20px;
+    width: 600px;
+    height: 180px;
+    border: 4px solid #1D4354;
+}
+
+.order2img{
+    position: absolute;
+    border-radius: 20px;
+    width: 200px;
+    height: 172px;
+    left: 0px;
+    top: 0px;
+    border: 4px solid #1D4354;
+}
+
+.order2name{
+    position: absolute;
+    top: 10px;
+    left: 210px;
+    font-size: 200%;
+    color: #EEF0F8;
+    font-family: 'Tahoma';
+}
+
+.order2id{
+    position: absolute;
+    top: 60px;
+    left: 210px;
+    font-size: 120%;
+    color: #EEF0F8;
+    font-family: 'Tahoma';
+}
+
+
+.order2amount{
+    position: absolute;
+    top: 100px;
+    left: 210px;
+    font-size: 120%;
+    color: #EEF0F8;
+    font-family: 'Tahoma';
+}
+
+.order2date{
+    position: absolute;
+    top: 140px;
+    left: 210px;
+    font-size: 120%;
+    color: #EEF0F8;
+    font-family: 'Tahoma';
+}
+
+.order2total{
+    position: absolute;
+    top: 130px;
+    left: 460px;
+    font-size: 160%;
+    color: #EEF0F8;
+    font-family: 'Tahoma';
+}
+
+.order3 {
+    position: absolute;
+    margin-top: 460px;
+    border-radius: 25px;
+    background: #1D4354;
+    padding: 20px;
+    width: 600px;
+    height: 180px;
+    border: 4px solid #1D4354;
+}
+
+.order3img{
+    position: absolute;
+    border-radius: 20px;
+    width: 200px;
+    height: 172px;
+    left: 0px;
+    top: 0px;
+    border: 4px solid #1D4354;
+}
+
+.order3name{
+    position: absolute;
+    top: 10px;
+    left: 210px;
+    font-size: 200%;
+    color: #EEF0F8;
+    font-family: 'Tahoma';
+}
+
+.order3id{
+    position: absolute;
+    top: 60px;
+    left: 210px;
+    font-size: 120%;
+    color: #EEF0F8;
+    font-family: 'Tahoma';
+}
+
+
+.order3amount{
+    position: absolute;
+    top: 100px;
+    left: 210px;
+    font-size: 120%;
+    color: #EEF0F8;
+    font-family: 'Tahoma';
+}
+
+.order3date{
+    position: absolute;
+    top: 140px;
+    left: 210px;
+    font-size: 120%;
+    color: #EEF0F8;
+    font-family: 'Tahoma';
+}
+
+.order3total{
+    position: absolute;
+    top: 130px;
+    left: 460px;
+    font-size: 160%;
+    color: #EEF0F8;
+    font-family: 'Tahoma';
+}
+
+
+.downButton{
+    position: absolute;
+    border: none;
+    background: none;
+    cursor: pointer;
+    height: 40px;
+    top: 680px;
+    left: 365px;
+}
+
+.upButton{
+    position: absolute;
+    border: none;
+    background: none;
+    cursor: pointer;
+    height: 40px;
+    top: 680px;
+    left: 255px;
+}
+
+  

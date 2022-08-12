@@ -1,0 +1,89 @@
+.before-footer
+{
+  padding: 50px 0px 50px;
+  background-color: #403D38;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.before-footer .about-us
+{
+  width: 25%;
+  float: left;
+  padding: 20px;
+}
+
+.before-footer .about-us h3 
+{
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.before-footer .about-us p 
+{
+  color: #969696;
+  margin-bottom: 30px;
+  line-height: 25px;
+  transform: translateY(30px);
+}
+
+.before-footer .about-us span
+{
+  display: block;
+  margin-bottom: 25px;
+  color: #969696;
+  position: relative;
+}
+
+.before-footer .about-us span::before
+{
+  content: ">";
+  width: 20px;
+  height: 20px;
+  position: relative;
+  right: 10px;
+}
+.before-footer .about-us span::after
+{
+  content: "ــــــــــــــــــــــــــــــــــــــــــــــــــ";
+  position: absolute;
+  top: 15px;
+  right: 50%;
+}
+.before-footer .about-us ul
+{
+  list-style: none;
+  background-image: url("images/contact-details-map.png");
+  background-size: cover;
+  background-position: center 50px;
+}
+.before-footer .about-us ul li 
+{
+  margin-bottom: 35px;
+  color: #969696;
+  position: relative;
+} 
+.before-footer .about-us ul li a 
+{
+  color: #969696;
+  text-decoration: none;
+
+}
+.before-footer .about-us ul li a:hover
+{
+  color: #fff;
+}
+.before-footer .about-us ul li::after
+{
+  content: '';
+    width: 90%;
+    background-color: #969696;
+    height: 0.5px;
+    position: absolute;
+    top: 40px;
+    left: 5px;
+}
+
+
+.before-footer{
+    background-color: black;
+}

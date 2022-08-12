@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Categories</title>
+    
+    <link rel="stylesheet" href="css/mohamed.css">
+
+</head>
+
+<body>
+
+
+
+    <nav>
+        <div class="logo">
+            <img src="img/logo.png" width="110" ; height="44">
+        </div>
+
+        <ul class="nav-links">
+
+            <li>
+                <a href="HomePage.html">Home</a>
+              </li>
+        
+        
+              <li>
+                <a href="Categories.html">Shop Now</a>
+              </li>
+        
+              <li>
+                <a href="dash.html">Dashboard</a>
+              </li>
+        
+              <li>
+                <a href="Register.html">Create Account</a>
+              </li>
+
+        </ul>
+
+    </nav>
+    <form class="form" name="formSubmit" action="product.php" method="get"  onsubmit="">
+
+    <div class="background"></div>
+
+    <div class="categoriesContainer">
+        <h1>Product Categories</h1>
+        
+
+        <div class="vegetablesBox" id="box">
+            <button class="vegetablesButton hover1"  name="cusId" value="1"> <img alt="vegetables" src="img\vegetables.jpg"> <button class="text hover1"><a href="SearchV.html"> Vegetables </a> </button>
+            
+        </div>
+
+        <div class="fruitsBox" id="box">
+            <button class="fruitsButton hover2" name="cusId" value="2">  <img alt="fruits" src="img\fruits.jpg"> </a> <button class="text hover2"> <a href="SearchF.html">Fruits</a></button> </button>
+        </div>
+
+        <div class="drinksBox"id="box">
+            <button class="drinksButton hover3" name="cusId" value="3"> <img src="img\drinks.jpg"> <button class="text hover3">Drinks</button> </button>
+        </div>
+
+        <div class="bakedBox"id="box">
+            <button class="bakedButton hover4" name="cusId" value="4"> <img src="img\baked.jpg"> <button class="text hover4">Baked</button> </button>
+        </div>
+
+        <div class="toolsBox"id="box">
+            <button class="toolsButton hover5"> <img src="img\tools.jpg"> <button class="text hover5">Tools</button> </button>
+        </div>
+
+
+    </div>
+
+</form>
+
+  
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/mohamedCategoriesScript.js"></script>
+</body>
+</html>
